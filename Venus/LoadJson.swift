@@ -24,7 +24,7 @@ struct ConcertBand: Decodable, Identifiable {
     var songs: [String]
 }
 
-func loadConcert(origin: LoadOrigin, filename fileName: String) -> [Concert]? {
+func fetchConcertData(origin: LoadOrigin, filename fileName: String) -> [Concert]? {
     if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
         do {
             let data = try Data(contentsOf: url)
@@ -50,13 +50,23 @@ func loadConcert(origin: LoadOrigin, filename fileName: String) -> [Concert]? {
     return nil
 }
 
+func loadConcert(origin: LoadOrigin, filename fileName: String) -> [Concert] {
+    let concerts: [Concert] = fetchConcertData(origin: origin, filename: fileName) ?? []
+    
+    let filteredConcerts = concerts.filter { concert in
+        concert.date > Date()
+    }
+    
+    return filteredConcerts
+}
+
 struct Rehearsal: Decodable, Identifiable {
     var id: Int
     var date: Date
     var songs: [String]
 }
 
-func loadRehearsal(origin: LoadOrigin, filename fileName: String) -> [Rehearsal]? {
+func fetchRehearsalData(origin: LoadOrigin, filename fileName: String) -> [Rehearsal]? {
     if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
         do {
             let data = try Data(contentsOf: url)
@@ -80,4 +90,14 @@ func loadRehearsal(origin: LoadOrigin, filename fileName: String) -> [Rehearsal]
         }
     }
     return nil
+}
+
+func loadRehearsal(origin: LoadOrigin, filename fileName: String) -> [Rehearsal] {
+    let rehearsals: [Rehearsal] = fetchRehearsalData(origin: origin, filename: fileName) ?? []
+    
+    let filteredRehearsals = rehearsals.filter { rehearsal in
+        rehearsal.date > Date()
+    }
+    
+    return filteredRehearsals
 }

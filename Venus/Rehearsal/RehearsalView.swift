@@ -37,7 +37,7 @@ struct RehearsalView: View {
                 }
             }
             .refreshable {
-                rehearsals = loadRehearsal(origin: .local, filename: "RehearsalData") ?? []
+                rehearsals = loadRehearsal(origin: .local, filename: "RehearsalData")
 
                 //                do {
                 //                    // Fetch and decode JSON into news items
@@ -53,7 +53,7 @@ struct RehearsalView: View {
             .navigationTitle("Rehearsal")
         }
         .task {
-            rehearsals = loadRehearsal(origin: .local, filename: "RehearsalData") ?? []
+            rehearsals = loadRehearsal(origin: .local, filename: "RehearsalData")
         }
     }
 

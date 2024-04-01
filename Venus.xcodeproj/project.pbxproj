@@ -110,11 +110,11 @@
 				BB3E781E2BBB192B009D04E3 /* Rehearsal */,
 				BB3E781F2BBB193A009D04E3 /* Concert */,
 				BB80DC6A2BBB3788002A387A /* LoadJson.swift */,
+				BB80DC6E2BBB416D002A387A /* RehearsalData.json */,
+				BB80DC6C2BBB38D1002A387A /* ConcertData.json */,
 				BB3E77F62BBB0D29009D04E3 /* Assets.xcassets */,
 				BB3E77F82BBB0D29009D04E3 /* Venus.entitlements */,
 				BB3E77F92BBB0D29009D04E3 /* Preview Content */,
-				BB80DC6C2BBB38D1002A387A /* ConcertData.json */,
-				BB80DC6E2BBB416D002A387A /* RehearsalData.json */,
 			);
 			path = Venus;
 			sourceTree = "<group>";

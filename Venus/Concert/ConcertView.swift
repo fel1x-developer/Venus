@@ -43,7 +43,7 @@ struct ConcertView: View {
                 }
             }
             .refreshable {
-                concerts = loadConcert(origin: .local, filename: "ConcertData") ?? []
+                concerts = loadConcert(origin: .local, filename: "ConcertData")
 
 //                do {
 //                    // Fetch and decode JSON into news items
@@ -59,7 +59,7 @@ struct ConcertView: View {
             .navigationTitle("Concert")
         }
         .task {
-            concerts = loadConcert(origin: .local, filename: "ConcertData") ?? []
+            concerts = loadConcert(origin: .local, filename: "ConcertData")
         }
     }
 
