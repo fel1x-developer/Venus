@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB3E77F32BBB0D28009D04E3 /* VenusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E77F22BBB0D28009D04E3 /* VenusApp.swift */; };
+		BB3E77F52BBB0D28009D04E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E77F42BBB0D28009D04E3 /* ContentView.swift */; };
+		BB3E77F72BBB0D29009D04E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3E77F62BBB0D29009D04E3 /* Assets.xcassets */; };
+		BB3E77FB2BBB0D29009D04E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3E77FA2BBB0D29009D04E3 /* Preview Assets.xcassets */; };
+		BB3E78052BBB0D29009D04E3 /* VenusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E78042BBB0D29009D04E3 /* VenusTests.swift */; };
+		BB3E780F2BBB0D29009D04E3 /* VenusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E780E2BBB0D29009D04E3 /* VenusUITests.swift */; };
+		BB3E78112BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E78102BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB3E78012BBB0D29009D04E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB3E77E72BBB0D27009D04E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3E77EE2BBB0D28009D04E3;
+			remoteInfo = Venus;
+		};
+		BB3E780B2BBB0D29009D04E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB3E77E72BBB0D27009D04E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3E77EE2BBB0D28009D04E3;
+			remoteInfo = Venus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB3E77EF2BBB0D28009D04E3 /* Venus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3E77F22BBB0D28009D04E3 /* VenusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusApp.swift; sourceTree = "<group>"; };
+		BB3E77F42BBB0D28009D04E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB3E77F62BBB0D29009D04E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB3E77F82BBB0D29009D04E3 /* Venus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Venus.entitlements; sourceTree = "<group>"; };
+		BB3E77FA2BBB0D29009D04E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB3E78002BBB0D29009D04E3 /* VenusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3E78042BBB0D29009D04E3 /* VenusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusTests.swift; sourceTree = "<group>"; };
+		BB3E780A2BBB0D29009D04E3 /* VenusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3E780E2BBB0D29009D04E3 /* VenusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusUITests.swift; sourceTree = "<group>"; };
+		BB3E78102BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB3E77EC2BBB0D28009D04E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E77FD2BBB0D29009D04E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E78072BBB0D29009D04E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB3E77E62BBB0D27009D04E3 = {
+			isa = PBXGroup;
+			children = (
+				BB3E77F12BBB0D28009D04E3 /* Venus */,
+				BB3E78032BBB0D29009D04E3 /* VenusTests */,
+				BB3E780D2BBB0D29009D04E3 /* VenusUITests */,
+				BB3E77F02BBB0D28009D04E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB3E77F02BBB0D28009D04E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E77EF2BBB0D28009D04E3 /* Venus.app */,
+				BB3E78002BBB0D29009D04E3 /* VenusTests.xctest */,
+				BB3E780A2BBB0D29009D04E3 /* VenusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB3E77F12BBB0D28009D04E3 /* Venus */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E77F22BBB0D28009D04E3 /* VenusApp.swift */,
+				BB3E77F42BBB0D28009D04E3 /* ContentView.swift */,
+				BB3E77F62BBB0D29009D04E3 /* Assets.xcassets */,
+				BB3E77F82BBB0D29009D04E3 /* Venus.entitlements */,
+				BB3E77F92BBB0D29009D04E3 /* Preview Content */,
+			);
+			path = Venus;
+			sourceTree = "<group>";
+		};
+		BB3E77F92BBB0D29009D04E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E77FA2BBB0D29009D04E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB3E78032BBB0D29009D04E3 /* VenusTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E78042BBB0D29009D04E3 /* VenusTests.swift */,
+			);
+			path = VenusTests;
+			sourceTree = "<group>";
+		};
+		BB3E780D2BBB0D29009D04E3 /* VenusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E780E2BBB0D29009D04E3 /* VenusUITests.swift */,
+				BB3E78102BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift */,
+			);
+			path = VenusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB3E77EE2BBB0D28009D04E3 /* Venus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3E78142BBB0D29009D04E3 /* Build configuration list for PBXNativeTarget "Venus" */;
+			buildPhases = (
+				BB3E77EB2BBB0D28009D04E3 /* Sources */,
+				BB3E77EC2BBB0D28009D04E3 /* Frameworks */,
+				BB3E77ED2BBB0D28009D04E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venus;
+			productName = Venus;
+			productReference = BB3E77EF2BBB0D28009D04E3 /* Venus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB3E77FF2BBB0D29009D04E3 /* VenusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3E78172BBB0D29009D04E3 /* Build configuration list for PBXNativeTarget "VenusTests" */;
+			buildPhases = (
+				BB3E77FC2BBB0D29009D04E3 /* Sources */,
+				BB3E77FD2BBB0D29009D04E3 /* Frameworks */,
+				BB3E77FE2BBB0D29009D04E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB3E78022BBB0D29009D04E3 /* PBXTargetDependency */,
+			);
+			name = VenusTests;
+			productName = VenusTests;
+			productReference = BB3E78002BBB0D29009D04E3 /* VenusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB3E78092BBB0D29009D04E3 /* VenusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3E781A2BBB0D29009D04E3 /* Build configuration list for PBXNativeTarget "VenusUITests" */;
+			buildPhases = (
+				BB3E78062BBB0D29009D04E3 /* Sources */,
+				BB3E78072BBB0D29009D04E3 /* Frameworks */,
+				BB3E78082BBB0D29009D04E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB3E780C2BBB0D29009D04E3 /* PBXTargetDependency */,
+			);
+			name = VenusUITests;
+			productName = VenusUITests;
+			productReference = BB3E780A2BBB0D29009D04E3 /* VenusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB3E77E72BBB0D27009D04E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BB3E77EE2BBB0D28009D04E3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BB3E77FF2BBB0D29009D04E3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BB3E77EE2BBB0D28009D04E3;
+					};
+					BB3E78092BBB0D29009D04E3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BB3E77EE2BBB0D28009D04E3;
+					};
+				};
+			};
+			buildConfigurationList = BB3E77EA2BBB0D27009D04E3 /* Build configuration list for PBXProject "Venus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB3E77E62BBB0D27009D04E3;
+			productRefGroup = BB3E77F02BBB0D28009D04E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB3E77EE2BBB0D28009D04E3 /* Venus */,
+				BB3E77FF2BBB0D29009D04E3 /* VenusTests */,
+				BB3E78092BBB0D29009D04E3 /* VenusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB3E77ED2BBB0D28009D04E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E77FB2BBB0D29009D04E3 /* Preview Assets.xcassets in Resources */,
+				BB3E77F72BBB0D29009D04E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E77FE2BBB0D29009D04E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E78082BBB0D29009D04E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB3E77EB2BBB0D28009D04E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E77F52BBB0D28009D04E3 /* ContentView.swift in Sources */,
+				BB3E77F32BBB0D28009D04E3 /* VenusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E77FC2BBB0D29009D04E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E78052BBB0D29009D04E3 /* VenusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E78062BBB0D29009D04E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E78112BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift in Sources */,
+				BB3E780F2BBB0D29009D04E3 /* VenusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB3E78022BBB0D29009D04E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB3E77EE2BBB0D28009D04E3 /* Venus */;
+			targetProxy = BB3E78012BBB0D29009D04E3 /* PBXContainerItemProxy */;
+		};
+		BB3E780C2BBB0D29009D04E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB3E77EE2BBB0D28009D04E3 /* Venus */;
+			targetProxy = BB3E780B2BBB0D29009D04E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB3E78122BBB0D29009D04E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB3E78132BBB0D29009D04E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BB3E78152BBB0D29009D04E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Venus/Venus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Venus/Preview Content\"";
+				DEVELOPMENT_TEAM = 7H8LAN8P86;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minsoochoo.Venus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB3E78162BBB0D29009D04E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Venus/Venus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Venus/Preview Content\"";
+				DEVELOPMENT_TEAM = 7H8LAN8P86;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minsoochoo.Venus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB3E78182BBB0D29009D04E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H8LAN8P86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minsoochoo.VenusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Venus";
+			};
+			name = Debug;
+		};
+		BB3E78192BBB0D29009D04E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H8LAN8P86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minsoochoo.VenusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Venus";
+			};
+			name = Release;
+		};
+		BB3E781B2BBB0D29009D04E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H8LAN8P86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minsoochoo.VenusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Venus;
+			};
+			name = Debug;
+		};
+		BB3E781C2BBB0D29009D04E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H8LAN8P86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minsoochoo.VenusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Venus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB3E77EA2BBB0D27009D04E3 /* Build configuration list for PBXProject "Venus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E78122BBB0D29009D04E3 /* Debug */,
+				BB3E78132BBB0D29009D04E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3E78142BBB0D29009D04E3 /* Build configuration list for PBXNativeTarget "Venus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E78152BBB0D29009D04E3 /* Debug */,
+				BB3E78162BBB0D29009D04E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3E78172BBB0D29009D04E3 /* Build configuration list for PBXNativeTarget "VenusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E78182BBB0D29009D04E3 /* Debug */,
+				BB3E78192BBB0D29009D04E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3E781A2BBB0D29009D04E3 /* Build configuration list for PBXNativeTarget "VenusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E781B2BBB0D29009D04E3 /* Debug */,
+				BB3E781C2BBB0D29009D04E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB3E77E72BBB0D27009D04E3 /* Project object */;
+}
