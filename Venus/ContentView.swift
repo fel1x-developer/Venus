@@ -9,13 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            RehearsalView()
+                .tabItem {
+                    Label("Rehearsal", systemImage: "music.note.house.fill")
+                }
+
+            ConcertView()
+                .tabItem {
+                    Label("Concert", systemImage: "music.mic")
+                }
         }
-        .padding()
+    }
+
+    init () {
+        UINavigationBar.appearance().largeTitleTextAttributes = [
+            .foregroundColor: UIColor(named: "AccentColor") ?? .systemTeal
+        ]
+        UINavigationBar.appearance().titleTextAttributes = [
+            .foregroundColor: UIColor(named: "AccentColor") ?? .systemTeal
+        ]
     }
 }
 

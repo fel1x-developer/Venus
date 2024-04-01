@@ -14,6 +14,11 @@
 		BB3E78052BBB0D29009D04E3 /* VenusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E78042BBB0D29009D04E3 /* VenusTests.swift */; };
 		BB3E780F2BBB0D29009D04E3 /* VenusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E780E2BBB0D29009D04E3 /* VenusUITests.swift */; };
 		BB3E78112BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E78102BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift */; };
+		BB3E78212BBB1950009D04E3 /* RehearsalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E78202BBB1950009D04E3 /* RehearsalView.swift */; };
+		BB3E78232BBB1959009D04E3 /* ConcertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E78222BBB1959009D04E3 /* ConcertView.swift */; };
+		BB80DC6B2BBB3788002A387A /* LoadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80DC6A2BBB3788002A387A /* LoadJson.swift */; };
+		BB80DC6D2BBB39DE002A387A /* ConcertData.json in Resources */ = {isa = PBXBuildFile; fileRef = BB80DC6C2BBB38D1002A387A /* ConcertData.json */; };
+		BB80DC6F2BBB417E002A387A /* RehearsalData.json in Resources */ = {isa = PBXBuildFile; fileRef = BB80DC6E2BBB416D002A387A /* RehearsalData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		BB3E780A2BBB0D29009D04E3 /* VenusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3E780E2BBB0D29009D04E3 /* VenusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusUITests.swift; sourceTree = "<group>"; };
 		BB3E78102BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB3E78202BBB1950009D04E3 /* RehearsalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehearsalView.swift; sourceTree = "<group>"; };
+		BB3E78222BBB1959009D04E3 /* ConcertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertView.swift; sourceTree = "<group>"; };
+		BB80DC6A2BBB3788002A387A /* LoadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJson.swift; sourceTree = "<group>"; };
+		BB80DC6C2BBB38D1002A387A /* ConcertData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ConcertData.json; sourceTree = "<group>"; };
+		BB80DC6E2BBB416D002A387A /* RehearsalData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RehearsalData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 			children = (
 				BB3E77F22BBB0D28009D04E3 /* VenusApp.swift */,
 				BB3E77F42BBB0D28009D04E3 /* ContentView.swift */,
+				BB3E781E2BBB192B009D04E3 /* Rehearsal */,
+				BB3E781F2BBB193A009D04E3 /* Concert */,
+				BB80DC6A2BBB3788002A387A /* LoadJson.swift */,
 				BB3E77F62BBB0D29009D04E3 /* Assets.xcassets */,
 				BB3E77F82BBB0D29009D04E3 /* Venus.entitlements */,
 				BB3E77F92BBB0D29009D04E3 /* Preview Content */,
+				BB80DC6C2BBB38D1002A387A /* ConcertData.json */,
+				BB80DC6E2BBB416D002A387A /* RehearsalData.json */,
 			);
 			path = Venus;
 			sourceTree = "<group>";
@@ -127,6 +142,22 @@
 				BB3E78102BBB0D29009D04E3 /* VenusUITestsLaunchTests.swift */,
 			);
 			path = VenusUITests;
+			sourceTree = "<group>";
+		};
+		BB3E781E2BBB192B009D04E3 /* Rehearsal */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E78202BBB1950009D04E3 /* RehearsalView.swift */,
+			);
+			path = Rehearsal;
+			sourceTree = "<group>";
+		};
+		BB3E781F2BBB193A009D04E3 /* Concert */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E78222BBB1959009D04E3 /* ConcertView.swift */,
+			);
+			path = Concert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB80DC6F2BBB417E002A387A /* RehearsalData.json in Resources */,
+				BB80DC6D2BBB39DE002A387A /* ConcertData.json in Resources */,
 				BB3E77FB2BBB0D29009D04E3 /* Preview Assets.xcassets in Resources */,
 				BB3E77F72BBB0D29009D04E3 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB80DC6B2BBB3788002A387A /* LoadJson.swift in Sources */,
 				BB3E77F52BBB0D28009D04E3 /* ContentView.swift in Sources */,
+				BB3E78212BBB1950009D04E3 /* RehearsalView.swift in Sources */,
+				BB3E78232BBB1959009D04E3 /* ConcertView.swift in Sources */,
 				BB3E77F32BBB0D28009D04E3 /* VenusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
