@@ -19,11 +19,17 @@ struct RehearsalView: View {
             Form {
                 if !rehearsals.isEmpty {
                     List(rehearsals) { rehearsal in
-                        VStack(alignment: .leading) {
-                            Text(rehearsal.date.formatted())
-                                .font(.headline)
-                            Text(rehearsal.songs.joined(separator: ", "))
-                                .foregroundStyle(.secondary)
+                        NavigationLink(value: rehearsal) {
+                            VStack(alignment: .leading) {
+                                Text(rehearsal.date.formatted())
+                                    .font(.headline)
+                                Text(rehearsal.songs.joined(separator: ", "))
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                        .navigationDestination(for: Rehearsal.self) { rehearsal in
+                            RehearsalDetailView(rehearsal: rehearsal)
+                                .navigationTitle(rehearsal.date.formatted())
                         }
                     }
                 }

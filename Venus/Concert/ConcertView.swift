@@ -25,11 +25,17 @@ struct ConcertView: View {
             Form {
                 if !concerts.isEmpty {
                     List(concerts) { concert in
-                        VStack(alignment: .leading) {
-                            Text(concert.name)
-                                .font(.headline)
-                            Text(concert.date.formatted())
-                                .foregroundStyle(.secondary)
+                        NavigationLink(value: concert) {
+                            VStack(alignment: .leading) {
+                                Text(concert.name)
+                                    .font(.headline)
+                                Text(concert.date.formatted())
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                        .navigationDestination(for: Concert.self) { concert in
+                            ConcertDetailView(concert: concert)
+                                .navigationTitle(concert.name)
                         }
                     }
                 }

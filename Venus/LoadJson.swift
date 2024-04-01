@@ -11,16 +11,10 @@ enum LoadOrigin {
     case local, web
 }
 
-struct Concert: Decodable, Identifiable {
+struct Concert: Decodable, Identifiable, Hashable {
     var id: Int
     var name: String
-    var bands: [ConcertBand]
     var date: Date
-}
-
-struct ConcertBand: Decodable, Identifiable {
-    var id: Int
-    var name: String
     var songs: [String]
 }
 
@@ -52,15 +46,15 @@ func fetchConcertData(origin: LoadOrigin, filename fileName: String) -> [Concert
 
 func loadConcert(origin: LoadOrigin, filename fileName: String) -> [Concert] {
     let concerts: [Concert] = fetchConcertData(origin: origin, filename: fileName) ?? []
-    
+
     let filteredConcerts = concerts.filter { concert in
         concert.date > Date()
     }
-    
+
     return filteredConcerts
 }
 
-struct Rehearsal: Decodable, Identifiable {
+struct Rehearsal: Decodable, Identifiable, Hashable {
     var id: Int
     var date: Date
     var songs: [String]
@@ -94,10 +88,10 @@ func fetchRehearsalData(origin: LoadOrigin, filename fileName: String) -> [Rehea
 
 func loadRehearsal(origin: LoadOrigin, filename fileName: String) -> [Rehearsal] {
     let rehearsals: [Rehearsal] = fetchRehearsalData(origin: origin, filename: fileName) ?? []
-    
+
     let filteredRehearsals = rehearsals.filter { rehearsal in
         rehearsal.date > Date()
     }
-    
+
     return filteredRehearsals
 }
